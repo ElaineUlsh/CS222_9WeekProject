@@ -24,7 +24,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  //comment here
   const MyApp({super.key, required this.storage});
   final Storage storage;
 

@@ -80,14 +80,6 @@ class IngredientEntryWidgetState extends State<IngredientEntryWidget> {
     }
     setState(() {});
   }
-
-  void submitIngredients() {
-    for (IngredientWidget currWidget in fieldWidgetList) {
-      ingredients.add(currWidget.createIngredient);
-    }
-    Provider.of<IngredientChangeNotifier>(context, listen: false)
-        .setIngredients(ingredients);
-  }
 }
 
 class IngredientWidget extends StatefulWidget {

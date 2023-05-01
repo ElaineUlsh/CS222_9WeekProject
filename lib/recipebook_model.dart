@@ -67,7 +67,7 @@ class RecipeBookModel extends ChangeNotifier {
           1),
       "Mashed Potatoes": Recipe(
           "Mashed Potatoes",
-          "Simple and easy homemade mashed potatoes (recipe designed for 10 servings\nOrginal Serving Size before chosen serving size: 1",
+          "Simple and easy homemade mashed potatoes (recipe designed for 10 servings\nOriginal Serving Size before chosen serving size: 1",
           [
             Ingredient(
               "Russet Potatoes, peeled, cut into quarters",
