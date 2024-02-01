@@ -14,7 +14,6 @@ import "package:fraction/fraction.dart";
 import "dart:math" as math;
 
 void main() {
-  //comment here
   runApp(
     ChangeNotifierProvider(
       create: (context) => RecipeBookModel(),
